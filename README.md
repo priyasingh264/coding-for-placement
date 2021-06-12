@@ -5,4 +5,4 @@
 [![Build Status](https://travis-ci.com/IBM/MAX-Question-Answering-Web-App.svg?branch=master)](https://travis-ci.com/github/IBM/MAX-Question-Answering-Web-App)
 
 <br>
-in this repository contains programming questions in C++ language for placement prepration..
+In this repository contains programming questions in C++ language for placement prepration..
