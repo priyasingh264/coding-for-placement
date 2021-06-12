@@ -1,4 +1,8 @@
+/*
 
+Program to write trailing zeroes in the factoial of a number.
+
+*/
 
 #include <iostream>
 using namespace std;
