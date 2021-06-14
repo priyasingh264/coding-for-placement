@@ -1,8 +1,14 @@
-/*************************************************************************
+/*
+Strong Numbers is a number in which the sum of factorial of individual digits of the numbers is equal to the number itself.
 
-*******************************************************************************/
+To check for Strong Number, break the number into digits, find and add the factorial of each digit and lastly compare the result to the number. If both are equal then the number is a String Number else not a Strong Number.
 
-// C++ program for power of a number
+For Example:145
+
+Sum of factorial of digits of number   = 1! x 4! x 5=  145
+*/
+
+// C++ program for strong number
 #include <iostream>
 using namespace std;
 int factorial(int n)
