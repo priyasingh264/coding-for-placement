@@ -47,6 +47,6 @@ int main()
     long long bin = 11001100;
     cout<<"Given binary number is : "<<bin;
     cout<<"\n";
-    cout<<"Decimal number for given binary number is : "<<convert(bin);
+    cout<<"Octal number for given binary number is : "<<convert(bin);
     return 0;
 }
