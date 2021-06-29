@@ -1,36 +1,26 @@
-/*
-
-Program to write trailing zeroes in the factoial of a number.
-
-*/
-
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-int trailingZero(int n)
+int trailingzero(int n)
 {
-    int sum = 0;
-    if (n<5)
+    int fact=1;
+    for(int i=2;i<=n;i++)
     {
-        return 0;
+        fact=fact*i;
     }
-    else
+    int res=0;
+    
+    while(fact%10==0)
     {
-        while(n!=0)
-        {
-            n = n/5;
-            sum = sum + n;
-        }
+        res++;
+        fact=fact/10;
+        
     }
-    return sum;
+    return res;
 }
-
-
 int main()
 {
-    int fact;
-    cout<<"Enter the factorial whose trailing zeroes need to be counted : ";
-    cin>>fact;
-    cout<<"Number of trailing zeroes in factorial is : "<<trailingZero(fact);
+    int n=5;
+    cout<<trailingzero(n);
     return 0;
 }
